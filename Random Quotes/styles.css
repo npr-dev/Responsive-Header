@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: rgb(230, 236, 247);
+}
+
+main {
+display: flex;
+justify-content: center;
+}
+.content  {
+  width: 50%;
+  height: auto;
+  margin-top: 10%;
+  font-family: Open Sans, sans-serif;
+  font-family: 600;
+  font-size: 23px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  text-align: center;
+  
+}
+.card {
+  margin: 20px ;
+  color: rgb(8, 8, 8);
+
+}
+.btn {
+  background-color: rgb(51, 63, 90);
+  border: none;
+  font-family: Open sans, sans-serif;
+  font-weight: 600;
+  width: 85px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: beige;
+}
+.btn:hover {
+  transition: ease-out 0.5s;
+  background-color:rgba(51, 63, 90, 0.781) ;
+}
+.btn:active {
+  transform: scale(0.9);
+  outline: none;
+}
+
